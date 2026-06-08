@@ -31,8 +31,20 @@
     .brand-kicker { display:inline-flex; align-items:center; gap:8px; background:rgba(201,255,31,.14); color:var(--verde); border:1px solid rgba(201,255,31,.5); padding:6px 10px; border-radius:999px; font-size:12px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; margin-bottom:8px; }
     header.app h1 { margin:0; font-size:28px; line-height:1.1; }
     header.app p { margin:8px 0 0; font-size:14px; opacity:.92; max-width:720px; }
-    .brand-logo { background:white; border-radius:20px; padding:10px 14px; width:190px; min-width:150px; box-shadow:0 12px 24px rgba(0,0,0,.18); }
-    .brand-logo img { display:block; width:100%; height:auto; }
+    .brand-logo {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  width: 190px;
+  min-width: 150px;
+  box-shadow: none;
+}
+
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
     main { max-width:1220px; margin:20px auto; padding:0 14px; display:grid; grid-template-columns:410px 1fr; gap:18px; align-items:start; }
     .card { background:var(--card); border:1px solid var(--borda); border-radius:18px; box-shadow:0 10px 30px rgba(45,0,200,.08); overflow:hidden; }
     .card h2 { margin:0; padding:14px 16px; background:#F0F8FF; border-bottom:1px solid var(--borda); font-size:17px; color:var(--roxo-escuro); }
